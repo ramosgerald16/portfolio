@@ -1,0 +1,16 @@
+:root { font: 20px/1.2 "Poppins", sans-serif; } /* or html */
+
+@font-face {
+    font-family: pirataOne;
+    src: url(./PirataOne-Regular.ttf);
+}
+
+body, html {
+    height: 100%;
+    background-color: #121420 !important;
+    color: white !important;
+}
+
+h1 {
+    font-family: 'pirataOne', sans-serif !important;
+}

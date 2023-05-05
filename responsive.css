@@ -1,0 +1,65 @@
+/* Portrait Phones (less than 576px) */
+@media (max-width: 575.98px) {
+    .intro {
+        padding: 30% 0;
+    }
+    .intro h1 {
+        font-size: 100px;
+    }
+    .about img {
+        display: none;
+    }
+    .skills-hover img {
+        width: 20% !important;
+        display: inline-flex;
+        position: unset;
+    }
+    .branding-projects-box img {
+        width: 50%;
+        margin: 15% 0 !important;
+    }
+    button.navbar-toggler {
+        background: #b76d68 !important;
+    }
+    button.navbar-toggler.collapsed {
+        background: white !important;
+    }
+    .row.row-cols-auto.follow-along-icons {
+        width: 100% !important;
+        padding: unset !important;
+        margin: unset !important;
+    }
+    .footer {
+        padding-bottom: 20%;
+    }
+}
+
+/* Landscape Phones (less than 768px) */
+@media (max-width: 767.98px) {
+    button.navbar-toggler {
+        background: #b76d68 !important;
+    }
+    button.navbar-toggler.collapsed {
+        background: white !important;
+    }
+}
+
+/* Tablets (less than 992px) */
+@media (max-width: 991.98px) {
+    button.navbar-toggler {
+        background: #b76d68 !important;
+    }
+    button.navbar-toggler.collapsed {
+        background: white !important;
+    }
+}
+
+/* Desktops (less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+/* Large Desktops (less than 1400px) */
+@media (max-width: 1399.98px) {
+    
+}
